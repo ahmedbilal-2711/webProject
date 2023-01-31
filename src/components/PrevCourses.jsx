@@ -38,12 +38,13 @@ export default function BasicTable(props) {
     EarnedCredits,
     GPA
   ) {
-    return { Term, GradePoints, TotalCredits, EarnedCredits, GPA };
+    return { SrNo, Term, GradePoints, TotalCredits, EarnedCredits, GPA };
   }
   let rows = [];
   props.data.forEach((semester) => {
     rows.push(
       createData(
+        semester.semesterNumber,
         semester.term,
         semester.studentGp,
         semester.totalCreditHours,
