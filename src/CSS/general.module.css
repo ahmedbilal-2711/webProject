@@ -1,0 +1,36 @@
+.InContainer {
+  display: flex;
+}
+.value {
+  background-color: rgba(190, 194, 195, 0.421);
+  width: 250px;
+  /* border: 0.5px solid rgb(137, 137, 137); */
+  border-radius: 5px;
+  padding: 4px;
+  margin: 0px 10px;
+}
+
+.label {
+  margin-bottom: 2px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.Insider {
+  border: 1px solid rgba(133, 151, 173, 0.315);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  border-radius: 5px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.212);
+  padding: 10px;
+  margin: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}

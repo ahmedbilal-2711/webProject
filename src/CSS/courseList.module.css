@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.212);
+  padding: 10px 50px;
+  max-width: 60%;
+  margin: 20px 10px;
+}
+
+.crsBtn {
+  background-color: rgba(60, 118, 210);
+  font-weight: 600;
+  padding: 12px 22px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  margin: 20px 10px;
+}
+
+.descrip {
+  line-height: 4px;
+  color: rgba(0, 0, 0, 0.866);
+  font-size: smaller;
+}
+.crsBtn:hover {
+  background-color: rgba(60, 118, 210, 0.798);
+}

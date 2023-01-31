@@ -1,0 +1,27 @@
+.header {
+  color: white;
+  background-color: black;
+  border-radius: 5px 5px 0px 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+.model {
+  border-radius: 5px;
+  box-shadow: 0 1px 18px rgba(0, 0, 0, 0.212);
+  margin: 20px;
+  text-align: center;
+}
+
+.text {
+  color: rgba(0, 0, 0, 0.688);
+  line-height: 7px;
+  font-weight: 500;
+  font-size: large;
+  margin: 30px;
+}
+
+.table {
+  max-width: 60%;
+  margin: 0 auto;
+}

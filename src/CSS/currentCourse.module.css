@@ -1,0 +1,10 @@
+.card {
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.291);
+  display: flex;
+  justify-content: center;
+}
+.tag {
+  margin-bottom: 2px;
+  text-align: left;
+}

@@ -1,0 +1,24 @@
+.image {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 1px rgba(153, 151, 151, 0.5);
+}
+
+.models {
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.212);
+  padding: 10px 60px;
+  margin: 20px 15px;
+  height: 300px;
+}
+
+.text {
+  line-height: 5px;
+  font-size: small;
+}
+.info {
+  margin-top: 30px;
+}
